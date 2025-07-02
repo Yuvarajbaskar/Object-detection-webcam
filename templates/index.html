@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YOLOv8 Live Detection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    img {
+      margin-top: 20px;
+      border: 5px solid #007bff;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 YOLOv8 Live Object Detection</h1>
+  <img src="{{ url_for('video_feed') }}" width="800">
+</body>
+</html>
